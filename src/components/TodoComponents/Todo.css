@@ -1,0 +1,48 @@
+body{
+    background-color: lightcoral
+}
+
+.completedTodo {
+    text-decoration: line-through;
+  }
+
+  input[type=text] {
+      height: 30px;
+      width: 200px;
+      font-size: 25px;
+    border: 2px solid black;
+    border-radius: 30px;
+  }
+  
+  h2 {
+      font-size: 100px;
+      text-align: center;
+      color: limegreen;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  h3 {
+      display: flex;
+      font-size: 50px;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+ button {
+color: black;
+background-color: yellow;
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-radius: 12px;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+ }
+  
+  button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+  input{
+margin: 20px;
+  }
